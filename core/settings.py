@@ -40,7 +40,6 @@ PRODUCTION = 'RUN_MAIN' not in os.environ
 # Set DEBUG based on the environment. TO test 404 locally, set Debug = False.
 DEBUG = not PRODUCTION
 
-
 # Docker HOST
 ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 
